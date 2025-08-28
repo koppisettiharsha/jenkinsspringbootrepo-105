@@ -12,17 +12,17 @@ public class ClientController {
 	@GetMapping("/")
 	public String home()
 	{
-		return " CI / CD and Colud DevOps";
+		return "DEMO COMPLETED ";
 	}
-	@GetMapping("/deno")
+	@GetMapping("/deMo")
 	public String demo()
 	{
-		return "Jenkins Demo";
+		return "Jenkins Demo0000";
 	}
 	@GetMapping("/test")
 	public String test()
 	{
-		return "Deploy spring boot using jenkins";
+		return "Deploy spring boot using jenkins(CI/CD)";
 	}
 	
 }
